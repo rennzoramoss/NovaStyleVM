@@ -1,0 +1,120 @@
+.cuerpo {
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.598));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.negrita {
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+}
+.titulo {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.normal {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.normal:hover {
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+.cursiva {
+    font-size: 20px;
+    color: rgb(193, 193, 193);
+    font-style: italic;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.merch {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    width: auto;
+}
+.merch img {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+.deso{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 35px;
+padding: 0;
+font-family: "Outfit", sans-serif;
+background-color: rgb(233, 233, 233);
+padding: 5px 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+.lista_deso{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+list-style: none;
+padding: 0;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+margin-top: 0px;
+}
+.lista_deso .blanco {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.lista_deso .gris {
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 172, 172);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
