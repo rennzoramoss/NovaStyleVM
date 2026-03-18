@@ -237,7 +237,6 @@ text-align: center;
 padding: 10px;
 color: white;
 }
-/* ── MOBILE (hasta 768px) ── */
 @media (max-width: 768px) {
 
   header {
@@ -297,4 +296,30 @@ color: white;
     font-size: 15px;
     gap: 10px;
   }
+
+  /* ↓ Agregados nuevos ↓ */
+
+  body {
+    padding-top: 120px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  .container .item1,
+  .container .item2,
+  .container .item3 {
+    width: 90%;
+  }
+
+  .item1 img,
+  .item2 img,
+  .item3 img {
+    width: 100%;
+    max-width: 100%;
+  }
+
 }
