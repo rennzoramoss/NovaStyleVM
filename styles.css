@@ -242,7 +242,7 @@ color: white;
   header {
     flex-direction: column;
     gap: 2px;
-    padding: 15px 20px;
+    padding: 8px 20px;
     text-align: center;
   }
 
@@ -301,7 +301,7 @@ color: white;
   /* ↓ Agregados nuevos ↓ */
 
   body {
-    padding-top: 180px;
+    padding-top: 220px;
   }
 
   .container {
