@@ -241,7 +241,7 @@ color: white;
 
   header {
     flex-direction: column;
-    gap: 12px;
+    gap: 2px;
     padding: 15px 20px;
     text-align: center;
   }
@@ -257,7 +257,8 @@ color: white;
   }
 
   .logo {
-    width: 70px;
+    width: 60px;
+      height: auto;
   }
 
   .negrita {
@@ -300,7 +301,7 @@ color: white;
   /* ↓ Agregados nuevos ↓ */
 
   body {
-    padding-top: 120px;
+    padding-top: 180px;
   }
 
   .container {
